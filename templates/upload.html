@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+ <script src="../static/jquery-1.8.3.js"></script>
+<title>钓鱼网站监测</title>
+<style type="text/css">
+body{ font-size:14px;}
+input{ vertical-align:middle; margin:0; padding:0}
+.file-box{ position:relative;width:340px}
+.txt{ height:22px; border:1px solid #cdcdcd; width:180px;}
+.btn{ background-color:#FFF; border:1px solid #CDCDCD;height:24px; width:70px;}
+.file{ position:absolute; top:0; right:80px; height:24px; filter:alpha(opacity:0);opacity: 0;width:260px }
+</style>
+
+</head>
+
+<body>
+<h1>
+ {% if detection_result %}
+   The result is: <br />
+  {% for k, v in detection_result.items() %}
+   {{k}} : {{v}} <br />
+ {% endfor %}
+ {% else %}
+   upload the url
+ {% endif %}
+</h1>
+<form class='file-box' action="upload" method="post" enctype="multipart/form-data">
+ <input type='text' name='textfield' id='textfield' class='txt' />
+ <input type='button' class='btn' value='上传...' />
+ <input type="file" name="file" class="file" id="fileField" size="28" onchange="document.getElementById('textfield').value=this.value" />
+ <input type="submit" name="submit" class="btn" value="检测……" />
+
+</form>
+</body>
+
+</html>
