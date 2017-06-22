@@ -1,0 +1,105 @@
+﻿/*＝＝＝＝＝此样式文件主要是重置及新设置的样式＝＝＝＝＝＝＝＝*/
+
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li,                          /* list elements 列表元素 */
+pre,                                             /* text formatting elements 文本格式元素 */
+form, fieldset, legend,  input, textarea, /* form elements 表单元素 */
+th, td{                                          /* table elements 表格元素 */ 
+    margin: 0;
+    padding: 0;
+	font-size: 100%;
+    vertical-align:baseline;
+}
+
+/** 重置表格元素 **/
+table {
+        border-collapse:collapse;
+        border-spacing:0;
+}
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+sup { vertical-align: text-top; }                                      /* 重置，减少对行高的影响 */
+sub { vertical-align: text-bottom; }
+
+/** 重置表单元素 **/
+legend { color: #000; }                                                /* for ie6 */
+fieldset, img { border: 0; }                                           /* img 搭车：让链接里的 img 无边框 */
+ input, select, textarea { font-size: 100%; }                   /* 使得表单元素在 ie 下能继承字体大小 */
+input , textarea {
+	outline: none;
+	background:#fff;
+}
+/* 注：optgroup 无法扶正 *
+
+
+/* 重置 HTML5 元素 */
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+mark { background: #ff0; }
+
+/* 其它 */
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+audio:not([controls]) {
+    display: none;
+}                
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, i, var { font-style: normal; }                 /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; }                                             /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/*水平分隔线*/
+hr {
+        background: #ddd;/*Change the horizontal line*/
+        color: #ddd;/*Must be same backgrond-color*/
+        clear:both;/*clear float*/
+        float: none;/*cancel the default for float*/
+        width: 100%;/*define the width*/
+        height: 1px;/*Change the height*/
+        line-height: 1px;/*Clear small height for ie6*/
+        font-size: 0;/*Clear small height for ie6*/
+        border: none 0;/*Cancel default border style*/
+        margin:1em 0;
+}
+
+/*浮动与清除浮动*/
+.lfloat{
+        float:left;
+        display: inline;
+}
+
+.rfloat{
+        float:right;
+        display: inline;
+}
+.clearfix:before, 
+.clearfix:after { 
+  content: ""; 
+  display: table; 
+}
+.clearfix:after { 
+  clear: both; 
+  overflow:hidden;
+}
+.clearfix { 
+  zoom: 1; 
+}
+.clear{
+	clear:both;
+}

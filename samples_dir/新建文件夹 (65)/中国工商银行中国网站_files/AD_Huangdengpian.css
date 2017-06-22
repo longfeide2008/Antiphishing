@@ -1,0 +1,128 @@
+.button
+{
+    padding-right: 8px;
+    padding-left: 8px;
+    background: #7b7b63;
+    padding-bottom: 2px;
+    margin: 0px;
+    font: bold 9px sans-serif;
+    border-left: #fff 1px solid;
+    padding-top: 2px;
+    text-decoration: none;
+}
+A.button
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #000000;
+    text-decoration: none;
+}
+A.button:link
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #000000;
+    text-decoration: none;
+}
+A.button:visited
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #000000;
+    text-decoration: none;
+}
+A.button:hover
+{
+    background: #fff;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.hdbutton
+{
+    padding-right: 8px;
+    padding-left: 8px;
+    background: #7b7b63;
+    padding-bottom: 2px;
+    margin: 0px;
+    font: bold 9px sans-serif;
+    border-left: #fff 1px solid;
+    padding-top: 2px;
+    text-decoration: none;
+}
+A.hdbutton
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #000000;
+    text-decoration: none;
+}
+A.hdbutton:link
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #000000;
+    text-decoration: none;
+}
+A.hdbutton:visited
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #000000;
+    text-decoration: none;
+}
+A.hdbutton:hover
+{
+    background: #fff;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.trans
+{
+    filter: progid:DXImageTransform.Microsoft.Alpha(startX=0, startY=0, finishX=100, finishY=100,style=1,opacity=0,finishOpacity=40);
+    background-color: #000;
+}
+.button_tuweb
+{
+    padding-right: 6px;
+    padding-left: 6px;
+    background: #7b7b63;
+    padding-bottom: 8px;
+    margin: 0px;
+    font: bold 15px sans-serif;
+    height: 30px;
+    filter: alpha(opacity=90);
+    border-left: #fff 1px solid;
+    padding-top: 8px;
+    text-decoration: none;
+}
+A.button_tuweb
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #666666;
+    text-decoration: none;
+}
+A.button_tuweb:link
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #666666;
+    text-decoration: none;
+}
+A.button_tuweb:visited
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #666666;
+    text-decoration: none;
+}
+A.button_tuweb:hover
+{
+    background: #ffffff;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+

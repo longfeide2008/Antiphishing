@@ -1,0 +1,399 @@
+* {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Microsoft YaHei; BORDER-TOP-STYLE: none; FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+HTML {
+	WIDTH: 100%; BACKGROUND: #fff; HEIGHT: 100%
+}
+BODY {
+	WIDTH: 100%; BACKGROUND: #fff; HEIGHT: 100%
+}
+DL {
+	LIST-STYLE-TYPE: none
+}
+DT {
+	LIST-STYLE-TYPE: none
+}
+DD {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+IMG {
+	VERTICAL-ALIGN: middle
+}
+INPUT {
+	VERTICAL-ALIGN: middle
+}
+SELECT {
+	VERTICAL-ALIGN: middle
+}
+TEXTAREA {
+	VERTICAL-ALIGN: middle
+}
+A:link {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+A:visited {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+A:hover {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+A:focus {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+.png {
+	
+}
+.clear {
+	CLEAR: both
+}
+.visimg {
+	TEXT-ALIGN: center
+}
+#wrap {
+	WIDTH: 100%
+}
+* {
+	-webkit-text-size-adjust: none
+}
+HTML {
+	BACKGROUND: #eee
+}
+BODY {
+	BACKGROUND: #eee
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BUTTON {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	MIN-WIDTH: 280px; WIDTH: 100%; FONT: 1em 'Microsoft Yahei',Arial, Helvetica, sans-serif; BACKGROUND: #eee; COLOR: #797979
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+EM {
+	FONT-STYLE: normal
+}
+ADDRESS {
+	FONT-STYLE: normal
+}
+MAP {
+	DISPLAY: block
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+FIELDSET {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+BUTTON {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+IMG {
+	VERTICAL-ALIGN: top
+}
+INPUT {
+	VERTICAL-ALIGN: top
+}
+BUTTON {
+	VERTICAL-ALIGN: top
+}
+HR {
+	DISPLAY: none
+}
+INPUT {
+	BACKGROUND: #ffffff 0px 0px; COLOR: #767676; FONT-SIZE: 100%; background-size: auto auto; background-clip: border-box; background-origin: padding-box
+}
+SELECT {
+	BACKGROUND: #ffffff 0px 0px; COLOR: #767676; FONT-SIZE: 100%; background-size: auto auto; background-clip: border-box; background-origin: padding-box
+}
+TEXTAREA {
+	BACKGROUND: #ffffff 0px 0px; COLOR: #767676; FONT-SIZE: 100%; background-size: auto auto; background-clip: border-box; background-origin: padding-box
+}
+.hidden {
+	DISPLAY: none
+}
+.invisible {
+	POSITION: absolute; LINE-HEIGHT: 0; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; WIDTH: 0px; HEIGHT: 0px; VISIBILITY: hidden; TOP: -1000%
+}
+A:link {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+A:visited {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+A:hover {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+A:focus {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+.g_r {
+	FLOAT: right
+}
+.visimg {
+	TEXT-ALIGN: center
+}
+IMG {
+	WIDTH: 100%
+}
+#header {
+	WIDTH: 100%
+}
+#nav {
+	POSITION: relative; WIDTH: 100%
+}
+#nav P {
+	Z-INDEX: 10
+}
+#nav P IMG {
+	Z-INDEX: 11
+}
+#nav A {
+	Z-INDEX: 100; POSITION: absolute; DISPLAY: inline-block; BACKGROUND: url(/SiteCollectionDocuments/ICBC/Resources/WAP/touch/images/2014new/k.png); HEIGHT: 100%; TOP: 0px
+}
+#nav A.home {
+	WIDTH: 12%; LEFT: 0px
+}
+#nav A.nav01 {
+	WIDTH: 14%; LEFT: 14%
+}
+#nav A.nav02 {
+	WIDTH: 14%; LEFT: 32%
+}
+#nav A.nav03 {
+	WIDTH: 14%; LEFT: 50.5%
+}
+#nav A.nav04 {
+	WIDTH: 14%; LEFT: 68.5%
+}
+#nav A.nav05 {
+	WIDTH: 12%; LEFT: 86%
+}
+#nav A.active {
+	BORDER-BOTTOM: #d0020e 2px solid; HEIGHT: 98%
+}
+#section {
+	MARGIN: 2% auto; WIDTH: 100%; BACKGROUND: #fff; box-shadow: 1px 1px 2px #dbdbdb
+}
+#section .kv {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 96%; PADDING-RIGHT: 0px; PADDING-TOP: 2%
+}
+.Box {
+	PADDING-BOTTOM: 2%; MARGIN: 0px auto; WIDTH: 100%
+}
+.Box H2 {
+	POSITION: relative; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.Box H2 UL {
+	WIDTH: 100%; BACKGROUND: url(/SiteCollectionDocuments/ICBC/Resources/WAP/touch/images/2014new/line.gif) no-repeat center center; OVERFLOW: hidden
+}
+.Box H2 UL LI {
+	TEXT-ALIGN: center; WIDTH: 50%; FLOAT: left
+}
+.Box H2 UL LI A {
+	LINE-HEIGHT: 2; WIDTH: 70%; DISPLAY: inline-block; COLOR: #9b9a9a; FONT-SIZE: 1.5em; FONT-WEIGHT: normal
+}
+.Box H2 UL LI.on A {
+	BORDER-BOTTOM: #c7000a 2px solid; COLOR: #545454
+}
+.Box H2 P {
+	BORDER-BOTTOM: #e4e4e4 2px solid; LINE-HEIGHT: 2; PADDING-LEFT: 2%; COLOR: #545454; FONT-SIZE: 1.5em; FONT-WEIGHT: normal
+}
+.Box H2 P.znfw {
+	POSITION: absolute; BORDER-RIGHT-WIDTH: 0px; BOTTOM: 35%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 11%
+}
+.Box H2.BLine {
+	BORDER-BOTTOM: #e4e4e4 2px solid; PADDING-BOTTOM: 2%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 5%
+}
+.Box H2 SPAN {
+	LINE-HEIGHT: 2; PADDING-LEFT: 2%; WIDTH: 25%; FLOAT: left; COLOR: #545454; FONT-SIZE: 1.5em; FONT-WEIGHT: normal; BORDER-RIGHT: #797979 1px solid
+}
+.Box H2 UL.h2Right {
+	WIDTH: 71%; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: right
+}
+.Box H2 UL.h2Right LI {
+	WIDTH: 25%; FLOAT: left
+}
+.Box H2 UL.h2Right LI A {
+	LINE-HEIGHT: 3; WIDTH: 90%; DISPLAY: inline-block; COLOR: #9b9a9a; FONT-SIZE: 1.1em; FONT-WEIGHT: normal
+}
+#section .kjfw {
+	POSITION: relative; WIDTH: 100%; OVERFLOW: hidden
+}
+#section .kjfw A {
+	POSITION: absolute; WIDTH: 7%; FLOAT: left; HEIGHT: 100%; TOP: 0px
+}
+#section .kjfw A.left {
+	LEFT: 0px
+}
+#section .kjfw A.right {
+	RIGHT: 0px
+}
+#section .sjyh {
+	PADDING-BOTTOM: 5%; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 2%
+}
+#section .sjyh .left {
+	WIDTH: 45%; FLOAT: left
+}
+#section .sjyh .right {
+	WIDTH: 45%; FLOAT: right
+}
+.gg {
+	PADDING-BOTTOM: 2%; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0%
+}
+.gg LI {
+	LINE-HEIGHT: 1.8; PADDING-LEFT: 15px; BACKGROUND: url(/SiteCollectionDocuments/ICBC/Resources/WAP/touch/images/2014new/icbc11.jpg) no-repeat left center; FONT-SIZE: 1em
+}
+.fw {
+	PADDING-BOTTOM: 2%; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0%
+}
+.fw .left {
+	WIDTH: 30%; FLOAT: left; MARGIN-RIGHT: 2%
+}
+.fw .left1 {
+	WIDTH: 58%; FLOAT: left
+}
+.fw .right {
+	WIDTH: 68%; FLOAT: left
+}
+.fw .right2 {
+	WIDTH: 40%; FLOAT: left; MARGIN-RIGHT: 2%
+}
+.fw .right P {
+	LINE-HEIGHT: 1.8; FONT-SIZE: 1em
+}
+.fw .right TEXTAREA {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 1%; LINE-HEIGHT: 1.8; PADDING-LEFT: 1%; WIDTH: 97%; PADDING-RIGHT: 1%; HEIGHT: 80%; FONT-SIZE: 1em; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 1%
+}
+.fw .right .btn {
+	MARGIN-TOP: 1%; WIDTH: 30%; FLOAT: right
+}
+.gryw {
+	PADDING-BOTTOM: 2%; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 4%
+}
+.gryw .left {
+	WIDTH: 45%; FLOAT: left
+}
+.gryw .right {
+	WIDTH: 45%; FLOAT: right
+}
+.gryw P {
+	TEXT-ALIGN: center; LINE-HEIGHT: 1.8; FONT-SIZE: 1em; PADDING-TOP: 2%
+}
+.news {
+	PADDING-BOTTOM: 2%; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0%
+}
+.news LI {
+	LINE-HEIGHT: 1.8; PADDING-LEFT: 15px; BACKGROUND: url(/SiteCollectionDocuments/ICBC/Resources/WAP/touch/images/2014new/icbc11.jpg) no-repeat left center; FONT-SIZE: 1em
+}
+.khfw {
+	PADDING-BOTTOM: 2%; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0%
+}
+.khfw .left {
+	WIDTH: 45%; FLOAT: left
+}
+.khfw .right {
+	WIDTH: 45%; FLOAT: right
+}
+.khfw .bottom {
+	WIDTH: 100%; OVERFLOW: hidden; PADDING-TOP: 5%
+}
+.khfw .bottom .sbox {
+	MARGIN: 0px 2.5%; WIDTH: 20%; FLOAT: left
+}
+.khfw P {
+	TEXT-ALIGN: center; LINE-HEIGHT: 1.8; FONT-SIZE: 1em; PADDING-TOP: 2%
+}
+#footer {
+	PADDING-BOTTOM: 5%; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: #fff; BORDER-TOP: #c7000a 2px solid; PADDING-TOP: 5%
+}
+#footer .nav {
+	TEXT-ALIGN: center
+}
+#footer .nav A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.8; PADDING-LEFT: 2%; PADDING-RIGHT: 2%; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+#footer .copyright {
+	TEXT-ALIGN: center; PADDING-TOP: 1%
+}
+.scroll {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 480px; OVERFLOW: hidden
+}
+.mod_01 {
+	WIDTH: 480px; FLOAT: left
+}
+.mod_01 IMG {
+	WIDTH: 100%; DISPLAY: block
+}
+.dotModule_new {
+	Z-INDEX: 11; POSITION: absolute; PADDING-BOTTOM: 0px; LINE-HEIGHT: 6px; PADDING-LEFT: 5px; BOTTOM: 5px; PADDING-RIGHT: 5px; HEIGHT: 11px; RIGHT: 10px; PADDING-TOP: 0px; -webkit-border-radius: 11px
+}
+#slide_01_dot {
+	TEXT-ALIGN: center; MARGIN: 3px 0px 0px
+}
+#slide_01_dot SPAN {
+	MARGIN: 0px 3px; WIDTH: 5px; DISPLAY: inline-block; BACKGROUND: #f7f7f7; HEIGHT: 5px; VERTICAL-ALIGN: middle; -webkit-border-radius: 5px
+}
+#slide_01_dot .selected {
+	BACKGROUND: #66ff33
+}
+.B90 {
+	WIDTH: 100%
+}

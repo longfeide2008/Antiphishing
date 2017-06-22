@@ -1,0 +1,165 @@
+TD {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+BODY {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+SELECT {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.input {
+	BORDER-RIGHT: #b3b3b3 1px solid; BORDER-TOP: #b3b3b3 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #b3b3b3 1px solid; BORDER-BOTTOM: #b3b3b3 1px solid; BACKGROUND-COLOR: #ededed
+}
+.text {
+	COLOR: #727272; TEXT-DECORATION: none;LINE-HEIGHT: 22px;
+}
+A.text:link {
+	COLOR: #727272; TEXT-DECORATION: none;LINE-HEIGHT: 22px;
+}
+A.text:active {
+	COLOR: #bc0021; TEXT-DECORATION: none;LINE-HEIGHT: 22px;
+}
+A.text:visited {
+	COLOR: #727272; TEXT-DECORATION: none;LINE-HEIGHT: 22px;
+}
+A.text:hover {
+	COLOR: #bc0021; TEXT-DECORATION: underline;LINE-HEIGHT: 22px;
+}
+.menu {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.more {
+	COLOR: #bc0021; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.more:link {
+	COLOR: #bc0021; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.more:hover {
+	COLOR: #bc0021; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.text_underline {
+	COLOR: #727272; TEXT-DECORATION: underline
+}
+A.text_underline:link {
+	COLOR: #727272; TEXT-DECORATION: underline
+}
+A.text_underline:visited {
+	COLOR: #727272; TEXT-DECORATION: underline
+}
+A.text_underline:active {
+	COLOR: #727272; TEXT-DECORATION: underline
+}
+A.text_underline:hover {
+	COLOR: #bc0021; TEXT-DECORATION: underline
+}
+.text_white {
+	COLOR: #ffffff; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+A.text_white:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.text_white:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.text_white:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.text_blue {
+	COLOR: #13377F; TEXT-DECORATION: none;
+}
+A.text_blue:link {
+	COLOR: #13377F; TEXT-DECORATION: none;
+}
+A.text_blue:active {
+	COLOR: #13377F; TEXT-DECORATION: none;
+}
+A.text_blue:visited {
+	COLOR: #13377F; TEXT-DECORATION: none;
+}
+A.text_blue:hover {
+	COLOR: #13377F; TEXT-DECORATION: underline;
+}
+.text_brown {
+	COLOR: #A86C2C; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_brown:link {
+	COLOR: #A86C2C; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_brown:active {
+	COLOR: #A86C2C; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_brown:visited {
+	COLOR: #A86C2C; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_brown:hover {
+	COLOR: #A86C2C; TEXT-DECORATION: underline;LINE-HEIGHT: 18px;
+}
+.text_red {
+	COLOR: #3C76AD; TEXT-DECORATION: none;LINE-HEIGHT: 15px;
+}
+A.text_red:link {
+	COLOR: #3C76AD; TEXT-DECORATION: none;LINE-HEIGHT: 15px;
+}
+A.text_red:active {
+	COLOR: #bc0021; TEXT-DECORATION: none;LINE-HEIGHT: 15px;
+}
+A.text_red:visited {
+	COLOR: #3C76AD; TEXT-DECORATION: none;LINE-HEIGHT: 15px;
+}
+A.text_red:hover {
+	COLOR: #bc0021; TEXT-DECORATION: underline;LINE-HEIGHT: 15px;
+}
+.text_btm {
+	COLOR: #000000; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_btm:link {
+	COLOR: #000000; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_btm:active {
+	COLOR: #000000; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_btm:visited {
+	COLOR: #000000; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_btm:hover {
+	COLOR: #000000; TEXT-DECORATION: underline;LINE-HEIGHT: 18px;
+}
+.text_navi1 {
+	COLOR: #FFCC00; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_navi1:link {
+	COLOR: #FFCC00; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_navi1:active {
+	COLOR: #FFCC00; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_navi1:visited {
+	COLOR: #FFCC00; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_navi1:hover {
+	COLOR: #FFCC00; TEXT-DECORATION: underline;LINE-HEIGHT: 18px;
+}
+.text_orange {
+	COLOR: #FF6600; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_orange:link {
+	COLOR: #FF6600; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_orange:active {
+	COLOR: #bc0021; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_orange:visited {
+	COLOR: #FF6600; TEXT-DECORATION: none;LINE-HEIGHT: 18px;
+}
+A.text_orange:hover {
+	COLOR: #bc0021; TEXT-DECORATION: underline;LINE-HEIGHT: 18px;
+}

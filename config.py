@@ -7,7 +7,8 @@ bank_chinese = {
     1: '建设银行'
 }
 sensitive = {
-    0: ['icbc', '95588', 'gs', 'gsyh', 'gh'],
+    0: ['icbc', '1cbc', 'lcbc', '95588', 'icdc', '1cdc', 'lcdc', 'gsyh', 'gs', 'gh'],
+
     1: ['ccb', '95533', 'js', 'jsyh', 'jh']
 }
 bank_link = {

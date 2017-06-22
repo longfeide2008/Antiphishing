@@ -1,0 +1,27 @@
+.imgScroll_mobileAd_img_ad {
+	POSITION: relative; MARGIN: 0px auto; OVERFLOW: hidden
+}
+.imgScroll_mobileAd_img_wrap {
+	POSITION: absolute; BACKGROUND: #666; TOP: 0px; LEFT: 0px
+}
+.imgScroll_mobileAd_img_wrap UL {
+	POSITION: absolute; LEFT: 0px
+}
+.imgScroll_mobileAd_img_wrap UL LI {
+	BACKGROUND-COLOR: #808080; DISPLAY: inline; FLOAT: left
+}
+.imgScroll_mobileAd_img_wrap UL LI IMG {
+	opacity: 0.3
+}
+.imgScroll_mobileAd_img_wrap UL LI IMG.on {
+	opacity: 1.0
+}
+.imgScroll_mobileAd_imgFlashIco {
+	POSITION: relative; MARGIN: 0px auto; OVERFLOW: hidden; TOP: -30px
+}
+.imgScroll_mobileAd_imgFlashIco LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 26px; MARGIN-TOP: 2px; WIDTH: 20px; FLOAT: left; HEIGHT: 26px; COLOR: #fff; MARGIN-LEFT: 6px; FONT-SIZE: 14px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.imgScroll_mobileAd_imgFlashIco LI.on {
+	COLOR: #000
+}

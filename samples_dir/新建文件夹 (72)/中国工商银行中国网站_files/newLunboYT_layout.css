@@ -1,0 +1,37 @@
+﻿
+/* Home slider style */
+.slideShow{ position:relative; height:375px; width:100%; z-index:0; background:#fff; padding:0 0 0px 0; overflow: hidden; word-spacing:-1px;}
+/* 广告上下箭头样式 */
+.slide-pager-indicator {position: absolute; bottom: 0; left: 50%; z-index: 150; margin-left: 259px; height: 32px; width: 100%; font-size:14px;}
+.slide-pager-indicator a {background: url('../AdRes/Img_NewLunboYT/btn_home_slider_indicator.png') 0 0 no-repeat;width: 114px; height: 32px; display: inline-block;}
+.slideShow.innerSlider .slide-pager-indicator {margin-left: 244px; height: 20px; width:246px;}
+.slideShow.innerSlider .slide-pager-indicator a {width: 121px; height: 20px;background: url('../AdRes/Img_NewLunboYT/btn_home_slider_indicator_20.png') 0 0 no-repeat;}
+.slideShow.innerSlider .slide-pager-indicator a.next {width: 121px;}
+.slide-pager-indicator a.next,.slideShow.innerSlider .slide-pager-indicator a.next {background-position: right 0;}
+.slide-pager-indicator a.prev:hover {background-position: 0 bottom;}
+.slide-pager-indicator a.next:hover,.slideShow.innerSlider .slide-pager-indicator a.next:hover {background-position: right bottom;}
+/* 大广告左下区域样式 */
+.cycle-slideshow{ width:100%; height:375px;}
+.cycle-slideshow .item{ width:100%; height:375px; overflow:hidden;}
+.cycle-slideshow .item a{ display:block; background:url(../AdRes/Img_NewLunboYT/color_ffffff_30.png) repeat 0 0; padding:20px; position:absolute; bottom:14px; left:50%; font-size:20px; font-weight:800; line-height:1.2em; color:#fff; text-decoration:none; z-index:101; width:389px; margin-left:-489px; }
+.cycle-slideshow .item a .icoArrow{ display:inline-block; background:url(../AdRes/Img_NewLunboYT/slide_link_arrow.png) no-repeat 0 1px; *background-position:0 3px; width:20px; height:23px; vertical-align:middle; margin:0 0 0 10px;}
+.cycle-slideshow .item a:hover .icoArrow {background:url(../AdRes/Img_NewLunboYT/slide_link_arrow_hover.png) no-repeat 0 1px;}
+.cycle-slideshow .item a:hover {color: #bc0021;}
+.cycle-slideshow .item img{ left:50%; top:0; position:absolute; margin-left:-960px; z-index:100;}
+/* 大广告右侧列表栏样式 */
+.slide-pager{ position:absolute; left:50%; margin-left:259px; top:0; z-index:102; width:233px; height: 342px; overflow: hidden;}
+.slide-pager div{ margin:1px 0 0 0;}
+.slide-pager span{ height:67px; display:table-cell;*display:block; vertical-align:middle; width:233px; padding:0px 20px 0px 20px; *padding:0px 0px 0px 0px; text-align:center; font-size:20px; font-weight:800; line-height:1.2em; background:url(../AdRes/Img_NewLunboYT/color_ffffff_30.png) repeat 0 0; color:#fff; cursor:pointer; transition:background 200ms ease-out; -moz-transition:background 200ms ease-out; -webkit-transition:background 200ms ease-out;}
+.slide-pager span:hover { color: #cd0404 !important;}
+.slide-pager div.cycle-pager-active span{ background:rgba(96,96,96,0.7) !important; background:#606060 \0/  !important; *background:#606060 !important; color: #fff !important;}
+/* 小广告右侧列表栏样式 */
+.slideShow.innerSlider {height: 216px; margin-bottom: 30px;}
+.slideShow.innerSlider .cycle-slideshow .item,.slideShow.innerSlider .cycle-slideshow {height: 216px !important;}
+.slideShow.innerSlider .slide-pager{ width: 245px; margin-left: 244px; height: 195px; overflow: hidden;}
+.slideShow.innerSlider .slide-pager span { background: url(../AdRes/Img_NewLunboYT/color_ffffff_30.png) repeat 0 0; height: 60px;color: #201e1d; font-size: 16px;position: relative;padding: 2px 20px; width: 208px;}
+.slideShow.innerSlider .slide-pager div.cycle-pager-active span {color: #fff;}
+.slideShow.innerSlider .slide-pager span img {float: left; margin-right: 3px;}
+
+.vertSlider {display: inline-block;width: 233px; height: 340px; overflow: hidden; }
+.vertSlider .position-wrapper {position: absolute; left: 0; top: 0px;}
+.vertSlider .swiper-slide {display: block; margin-bottom: 1px;}

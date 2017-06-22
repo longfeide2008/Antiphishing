@@ -1,0 +1,38 @@
+
+#NewLunboType2_lantern {
+	BORDER-RIGHT: #d1d1d1 1px solid; BORDER-TOP: #d1d1d1 1px solid; FONT-SIZE: 14px; OVERFLOW: hidden; BORDER-LEFT: #d1d1d1 1px solid; CURSOR: pointer; LINE-HEIGHT: 23px; BORDER-BOTTOM: #d1d1d1 1px solid;
+}
+
+#NewLunboType2_lanternImg {
+	OVERFLOW: hidden;
+	POSITION: absolute;
+	visibility: visible;
+}
+
+#NewLunboType2_lanternNavy {
+	BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 14px; FLOAT: left; OVERFLOW: hidden; COLOR: #bc0021; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #cccabe; TEXT-ALIGN: center
+}
+
+#NewLunboType2_lanternNavy .div_off1 {
+	FLOAT: left; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 23px; BACKGROUND-COLOR: #cccabe; TEXT-ALIGN: center
+}
+#NewLunboType2_lanternNavy .div_on1 {
+	PADDING-RIGHT: 0px;  PADDING-LEFT: 0px; FLOAT: left; OVERFLOW: hidden; HEIGHT: 23px; BACKGROUND-COLOR: #f5f4f2; TEXT-ALIGN: center
+}
+#NewLunboType2_lanternNavy .div_off2 {
+	FLOAT: left;  HEIGHT: 23px; BACKGROUND-COLOR: #cccabe; TEXT-ALIGN: center
+}
+#NewLunboType2_lanternNavy .div_on2 {
+	PADDING-RIGHT: 0px;PADDING-LEFT: 0px; FLOAT: left; OVERFLOW: hidden; HEIGHT: 23px; BACKGROUND-COLOR: #f5f4f2; TEXT-ALIGN: center
+}
+#NewLunboType2_lanternNavy .div_off3 {
+	FLOAT: left; HEIGHT: 23px; BACKGROUND-COLOR: #cccabe; TEXT-ALIGN: center
+}
+#NewLunboType2_lanternNavy .div_on3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; OVERFLOW: hidden;HEIGHT: 23px; BACKGROUND-COLOR: #f5f4f2; TEXT-ALIGN: center
+}
+
+.NewLunboType2_li {
+	 MARGIN-TOP: 3px; FLOAT: left; MARGIN-LEFT: 6px;  WIDTH: 15px; COLOR: #ffffff; LINE-HEIGHT: 14px; MARGIN-RIGHT: 6px; HEIGHT: 15px; BACKGROUND-COLOR: #cc3300; TEXT-ALIGN: center; margin-left: 3px; margin-right: 3px
+}
+

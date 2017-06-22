@@ -1,0 +1,112 @@
+html, body, h1,img, ol, ul, li
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+#navHome
+{
+    font-family: Microsoft YaHei,SimSun,Verdana,Geneva,sans-serif;
+    font-size: 12px;
+    height: 83px;
+    border-top: 1px solid #e4e4e4;
+    background: #eeeeee;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    z-index: 300;
+    color: #797979;
+}
+.mainHomeBox a
+{
+    color: #6f6f6f;
+    text-decoration: none;
+}
+.mainHomeBox a:hover
+{
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.mainHomeBox
+{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#NavHome
+{
+    height: 83px;
+    border-top: 1px solid #e4e4e4;
+    background: #eeeeee;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    z-index: 300;
+}
+#NavHome h1
+{
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+#NavHome ul.OneNul
+{
+    position: absolute;
+    top: 33px;
+    right: 10px;
+}
+ #NavHome ul.OneNul li
+{
+    float: left;
+    display: inline;
+    color: #313030;
+    font-size: 16px;
+    line-height: 51px;
+    width: 100px;
+    height: 51px;
+    position: relative;
+}
+ #NavHome ul.OneNul li.Hnone
+{
+    padding: 0 0 0 8px;
+}
+ #NavHome ul.OneNul li a
+{
+    color: #313030;
+    float: left;
+    font-family: Microsoft YaHei;
+    width: 100px;
+    height: 51px;
+    float: left;
+    text-align: center;
+    line-height: 51px;
+}
+ #NavHome ul.OneNul li a:hover, #header #NavHome ul li a.active
+{
+    color: #fff;
+    text-decoration: none;
+    background: url(/Portal_Resources/IcbcHome/images/navbg.png) no-repeat;
+}
+ .KV
+{
+    width: 100%;
+    position: relative;
+    z-index: 200;
+}
+ .KV .KVbg
+{
+    width: 100%;
+    background: url(/Portal_Resources/IcbcHome/images/kbbg.png);
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+
+
+

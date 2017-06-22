@@ -11,7 +11,7 @@ import label_image
 from PIL import Image
 from urllib import error
 from make_links_absolutely import make_links_absolutely
-
+from shutil import copyfile
 
 def save_to_jpg(src_dir, target_dir):
     print('save_to_jpg start')
@@ -71,7 +71,7 @@ def save_to_dir(url, crawl_images_dir, crawl_images_dir_jpg):
                         urllib.request.urlretrieve(link, images_file_name(crawl_images_dir, link))
 
                 except Exception as e:
-                    print('在for循环内部，如果有异常，应该会再次进入for循环，这样获取的图片会更多', e)
+                    print(link, '在for循环内部，如果有异常，应该会再次进入for循环，这样获取的图片会更多', e)
 
     except Exception as e:
         print('根据链接抓取图片出错', e)
@@ -97,12 +97,53 @@ def image_similarity(url):
         return float('inf')
 
 
+def image_check(url):
+    dir_name = re.sub('[^a-zA-Z0-9]', '', url)
+    to_check_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "webpages", dir_name, dir_name+'_files')
+    print('待检测目录', to_check_dir)
+    for root, dir, files in os.walk(to_check_dir):
+        for file in files:
+            if file.lower().endswith('.png'):
+
+                Image.open(os.path.join(to_check_dir, file)).convert('RGB')\
+                    .save(os.path.join(to_check_dir, os.path.splitext(file)[0] + '.jpg'))
+    image_score = 0
+    image_str = ''
+    for root, dir, files in os.walk(to_check_dir):
+        for file in files:
+            if file.lower().endswith('.jpg') | file.lower().endswith('.jpeg'):
+                print(file)
+                image_path, max_str, max_score = label_image.label_iamge(os.path.join(to_check_dir, file))
+
+                for k, bank in cfg.bank.items():
+                    if (max_str == bank) and (max_score >= 0.95):
+                        print('recognization successfully end')
+                        return k
+    print('recognization inf')
+    return float('inf')
+                # if max_score >= image_score:
+                #     image_score = max_score
+                #     image_str = max_str
+    # 判断所有图片，但是太耗时间了
+    # for k, bank in cfg.bank.items():
+    #     # print('current bank', bank)
+    #     if (image_str == bank) and (image_score >= 0.8):
+    #         print('recognization successfully end')
+    #         return k
+    # print('recognization inf')
+    # return float('inf')
+
+
 if __name__ == "__main__":
-    url = "http://www.icbc.com.cn/icbc"
+    url = "http://www.icbc.com.cn"
+    image_check(url)
     # url = 'http://www.ccb.com/cn/home/indexv3.html'
-    url = 'http://www.abchina.com/cn/'
-    iamge_identity = image_similarity(url)
-    print('iamge_identity', iamge_identity)
+    # url = 'http://www.baidu.com'
+    # iamge_identity = image_similarity(url)
+    # print('iamge_identity', iamge_identity)
+    # image_check(url)
+
+
 
 
 

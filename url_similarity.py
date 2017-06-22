@@ -104,8 +104,33 @@ def url_similarity(url):
         return float('inf')
 
 
+def url_check(url):
+    cos_all_bank = []
+    for k, bank in cfg.bank.items():
+        sensitive = cfg.sensitive[0]  # 只看工行
+        max_cos = 0.0
+        max_sen = ''
+        for sen in sensitive:
+            # sstr = find_lcseque(url, sen)
+            sstr, lensstr = find_lcsubstr(url, sen)
+
+            if (max_cos <= len(sstr) / len(sen)) & (len(sstr) > 2) | ((sstr == 'gs') | (sstr == 'gh')):
+                max_cos = len(sstr) / len(sen)
+                max_sen = sen
+        print('url, bank, max_sen, max_cos：', url, bank, max_sen, max_cos)
+        cos_all_bank.append(max_cos)
+    if max(cos_all_bank) >= 0.5:
+        return 0
+    else:
+        return float('inf')
+
+    # 以下是多分类
+    # url_identity = cos_all_bank.index(max(cos_all_bank))
+    # print('最大值所在的位置', url_identity)
+
+
 if __name__ == '__main__':
     pass
-    url = 'http://g.com.cn'
-    url_identity = url_similarity(url)
+    url = 'http://icbc.com'
+    url_identity = url_check(url)
     print('in main', url_identity)

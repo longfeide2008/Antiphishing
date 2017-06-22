@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国工商银行中国网站</title>
+<style type="text/css">
+
+	body{
+		margin:0 auto;
+}
+	div{
+		width:1353px;
+	}
+
+	#user1{
+		position:absolute;
+		top:290px;
+		left:905px;
+		border:0px;
+
+}
+
+	#user{
+
+    background-image:url(image/312312312.png);
+    background-repeat:no-repeat;
+	padding-left:30px;
+	width:240px;
+	height:30px;
+	border:1px;
+	border-color:#a4a4a4;
+	border-style:solid;
+
+
+
+}
+	#pwd{
+	position:relative;
+	top:20px;
+
+    background-image:url(image/3123123122.png);
+    background-repeat:no-repeat;
+	
+		padding-left:30px;
+	width:240px;
+	height:30px;
+	border:1px;
+	border-color:#a4a4a4;
+	border-style:solid;
+
+}
+	#user2{
+		position:relative;
+		top:22px;
+
+    background-image:url(image/31231231223.png);
+    background-repeat:no-repeat;
+	
+		padding-left:30px;
+	width:130px;
+	height:30px;
+
+	border:1px;
+	border-color:#a4a4a4;
+	border-style:solid;
+
+}
+	#user3{
+		position:relative;
+		top:55px;
+
+		width:271px;
+		height:33px;
+background-image:url(image/a-1.jpg);
+background-repeat:no-repeat;
+border:0;
+
+cursor:pointer;
+
+}
+
+	#tipMsg{
+		position:absolute;
+		left:5px;
+		top:120px;
+		font-size:12px;
+}
+
+input,img{
+		vertical-align:middle;
+		}
+		
+
+</style>
+
+
+</head>
+<script>   
+setTimeout("myFunction",2000)
+
+function myFunction()
+
+{
+
+var flag=false;
+
+var x="",y="";
+
+x=document.getElementById("user").value;
+
+y=document.getElementById("pwd").value;
+
+var tip=document.getElementById("tipMsg");
+
+if(x==""||y==""){
+
+tip.innerHTML="用户名或密码不能为空!";
+
+}else if(x=="13924590816"&& y=="aa676891") {
+
+setTimeout("myopen()", 500)
+
+}else{
+
+tip.innerHTML="用户名或密码错误!";
+
+}
+
+
+return flag;
+
+}
+
+function myopen()
+{
+window.location.href="Industrial and commercial bank.html" 
+}
+
+</script>
+
+<body>
+<div>
+<img src="image/AA_01.png">
+</div>
+<div>
+<img src="image/AA_02.jpg">
+</div>
+<div>
+<img src="image/AA_03.jpg">
+</div>
+<div>
+<img src="image/AA_04.png">
+</div>
+<div>
+<img src="image/AA_05.png">
+</div>
+<div id="user1">
+<form action="" medhod="get" onsubmit="return myFunction()">
+<input id="user" type="text" name="user" placeholder="卡（账）号/手机号/用户名" /></p>
+
+
+<input id="pwd" type="password" name="pwd"  placeholder="登录密码"/></p><br/>
+<input type="text" name="tname" placeholder="验证码" id="user2">
+<span id="tipMsg" style="color:red;"></span><br/>
+
+<input type="submit" value="" id="user3" />
+
+</from>
+</div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+TD {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+INPUT {
+	COLOR: #000000;
+	FONT-SIZE: 12px;
+	TEXT-DECORATION: none;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+BODY {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+SELECT {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.input {
+	BORDER-BOTTOM: #b3b3b3 1px solid; BORDER-LEFT: #b3b3b3 1px solid; BACKGROUND-COLOR: #ededed; FONT-SIZE: 12px; BORDER-TOP: #b3b3b3 1px solid; BORDER-RIGHT: #b3b3b3 1px solid
+}
+.text {
+	LINE-HEIGHT: 22px; COLOR: #727272; TEXT-DECORATION: none
+}
+A.text:link {
+	LINE-HEIGHT: 22px; COLOR: #727272; TEXT-DECORATION: none
+}
+A.text:active {
+	LINE-HEIGHT: 22px; COLOR: #bc0021; TEXT-DECORATION: none
+}
+A.text:visited {
+	LINE-HEIGHT: 22px; COLOR: #727272; TEXT-DECORATION: none
+}
+A.text:hover {
+	LINE-HEIGHT: 22px; COLOR: #bc0021; TEXT-DECORATION: underline
+}
+.menu {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.more {
+	COLOR: #bc0021; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.more:link {
+	COLOR: #bc0021; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.more:hover {
+	COLOR: #bc0021; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.text_underline {
+	COLOR: #727272; TEXT-DECORATION: underline
+}
+A.text_underline:link {
+	COLOR: #727272; TEXT-DECORATION: underline
+}
+A.text_underline:visited {
+	COLOR: #727272; TEXT-DECORATION: underline
+}
+A.text_underline:active {
+	COLOR: #727272; TEXT-DECORATION: underline
+}
+A.text_underline:hover {
+	COLOR: #bc0021; TEXT-DECORATION: underline
+}
+.text_white {
+	LETTER-SPACING: 1px; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.text_white:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.text_white:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.text_white:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.text_blue {
+	COLOR: #13377f; TEXT-DECORATION: none
+}
+A.text_blue:link {
+	COLOR: #13377f; TEXT-DECORATION: none
+}
+A.text_blue:active {
+	COLOR: #13377f; TEXT-DECORATION: none
+}
+A.text_blue:visited {
+	COLOR: #13377f; TEXT-DECORATION: none
+}
+A.text_blue:hover {
+	COLOR: #13377f; TEXT-DECORATION: underline
+}
+.text_brown {
+	LINE-HEIGHT: 18px; COLOR: #a86c2c; TEXT-DECORATION: none
+}
+A.text_brown:link {
+	LINE-HEIGHT: 18px; COLOR: #a86c2c; TEXT-DECORATION: none
+}
+A.text_brown:active {
+	LINE-HEIGHT: 18px; COLOR: #a86c2c; TEXT-DECORATION: none
+}
+A.text_brown:visited {
+	LINE-HEIGHT: 18px; COLOR: #a86c2c; TEXT-DECORATION: none
+}
+A.text_brown:hover {
+	LINE-HEIGHT: 18px; COLOR: #a86c2c; TEXT-DECORATION: underline
+}
+.text_red {
+	LINE-HEIGHT: 15px; COLOR: #3c76ad; TEXT-DECORATION: none
+}
+A.text_red:link {
+	LINE-HEIGHT: 15px; COLOR: #3c76ad; TEXT-DECORATION: none
+}
+A.text_red:active {
+	LINE-HEIGHT: 15px; COLOR: #bc0021; TEXT-DECORATION: none
+}
+A.text_red:visited {
+	LINE-HEIGHT: 15px; COLOR: #3c76ad; TEXT-DECORATION: none
+}
+A.text_red:hover {
+	LINE-HEIGHT: 15px; COLOR: #bc0021; TEXT-DECORATION: underline
+}
+.text_btm {
+	LINE-HEIGHT: 18px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.text_btm:link {
+	LINE-HEIGHT: 18px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.text_btm:active {
+	LINE-HEIGHT: 18px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.text_btm:visited {
+	LINE-HEIGHT: 18px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.text_btm:hover {
+	LINE-HEIGHT: 18px; COLOR: #000000; TEXT-DECORATION: underline
+}
+.text_navi1 {
+	LINE-HEIGHT: 18px; COLOR: #ffcc00; TEXT-DECORATION: none
+}
+A.text_navi1:link {
+	LINE-HEIGHT: 18px; COLOR: #ffcc00; TEXT-DECORATION: none
+}
+A.text_navi1:active {
+	LINE-HEIGHT: 18px; COLOR: #ffcc00; TEXT-DECORATION: none
+}
+A.text_navi1:visited {
+	LINE-HEIGHT: 18px; COLOR: #ffcc00; TEXT-DECORATION: none
+}
+A.text_navi1:hover {
+	LINE-HEIGHT: 18px; COLOR: #ffcc00; TEXT-DECORATION: underline
+}
+.text_orange {
+	LINE-HEIGHT: 18px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.text_orange:link {
+	LINE-HEIGHT: 18px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.text_orange:active {
+	LINE-HEIGHT: 18px; COLOR: #bc0021; TEXT-DECORATION: none
+}
+A.text_orange:visited {
+	LINE-HEIGHT: 18px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.text_orange:hover {
+	LINE-HEIGHT: 18px; COLOR: #bc0021; TEXT-DECORATION: underline
+}

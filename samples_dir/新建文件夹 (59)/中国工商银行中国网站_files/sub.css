@@ -1,0 +1,160 @@
+ #NavHome .subNav
+{
+    top: 51px;
+    position: absolute;
+    z-index: 210;
+    background: url(http://www.icbc.com.cn/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/navLine.gif) repeat-x #eee;
+    height :295px;
+    display: none;
+}
+/*二级导航位置,从左到右顺序,start*/
+ #NavHome #Nav02
+{
+    left: -582px;
+}
+ #NavHome #Nav03
+{
+    left: -682px;
+}
+ #NavHome #Nav04
+{
+    left: -782px;
+}
+ #NavHome #Nav05
+{
+    left: -882px;
+}
+/*二级导航位置end*/
+ #NavHome .subNav .icon
+{
+    /*下拉菜单右下角小图标位置*/
+    position: absolute;
+    bottom: -25px;
+    right: -5px;
+}
+ #NavHome .SubBox
+{
+    /*下拉菜单大小及位置*/
+    width: 705px;
+    height: 215px;
+    padding: 45px 35px 0 260px;
+}
+ #NavHome .SubBox .SubLink
+{
+    margin-right: 30px;
+}
+/*下拉菜单第二行样式start*/
+ #NavHome .SubBox .SubLink ul.bottomLink
+{
+    overflow: hidden;
+    margin-bottom：20px;
+}
+ #NavHome .SubBox .SubLink ul.bottomLink li
+{
+    padding: 0;
+    width: auto;
+    background: none;
+    height: auto;
+}
+ #NavHome .SubBox .SubLink ul.bottomLink li a
+{
+    background: url(http://www.icbc.com.cn/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/nav_arrow.gif) no-repeat 11px 10px;
+    height: 25px;
+    line-height: 25px;
+    width: auto;
+    padding: 0 12px 0 27px;
+    font-size: 14px;
+}
+ #NavHome .SubBox .SubLink ul.bottomLink li a:hover
+{
+    background: url(http://www.icbc.com.cn/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/nav_arrow_on.gif) no-repeat 11px 10px #c7000a;
+}
+/*下拉菜单第二行样式end*/
+
+/*下拉菜单第一行样式start*/
+ #NavHome .SubBox .SubLink ul.topLink
+{
+    _height: 60px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+ #NavHome .SubBox .SubLink ul.topLink li
+{
+    padding: 0;
+    width: auto;
+    background: none;
+    height: auto;
+}
+ #NavHome .SubBox .SubLink ul.topLink li a
+{
+    background: url(http://www.icbc.com.cn/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/nav_arrow.gif) no-repeat 11px 10px;
+    height: 25px;
+    line-height: 25px;
+    width: auto;
+    padding: 0 12px 0 27px;
+    font-size: 14px;
+}
+ #NavHome .SubBox .SubLink ul.topLink li a:hover
+{
+    background: url(http://www.icbc.com.cn/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/nav_arrow_on.gif) no-repeat 11px 10px #c7000a;
+}
+/*下拉菜单第一行样式end*/
+
+/*下拉菜单第二行新闻列表样式start*/
+ #NavHome .SubBox .SubLink ul.newsLink
+{
+    overflow: hidden;
+}
+ #NavHome .SubBox .SubLink ul.newsLink li
+{
+    padding: 0;
+    width: auto;
+    background: url(http://www.icbc.com.cn/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/newsLinkbg.gif) no-repeat 12px 10px;
+    height: auto;
+    float: none;
+    padding-left: 27px;
+    overflow: hidden;
+    display: block;
+}
+ #NavHome .SubBox .SubLink ul.newsLink li a
+{
+    width: auto;
+    height: auto;
+    line-height: 25px;
+    font-size: 14px;
+}
+ #NavHome .SubBox .SubLink ul.newsLink li a:hover
+{
+    background: none;
+    color: #c7000a;
+}
+/*下拉菜单第二行新闻列表样式end*/
+
+ #NavHome .SubBox .SubLink .picLink
+{
+	margin-top:20px;
+}
+ #NavHome .SubBox .PicLink
+{
+    width: 190px;
+}
+ #NavHome .SubBox .PicLink img
+{
+    border: 1px solid #dddede;
+}
+.STYLE4 {color: #FFFFFF}
+A.STYLE4:hover{color: #FFFFFF}
+.loginBox{width:230px; position:absolute; top:84px; left:50%; margin-left:-500px; z-index:210;}
+.loginBox .btn{ background:#d1cfcc}
+.loginBox .btn .LBTop{border-bottom:1px solid #c7000a; height:30px;background:#d1cfcc;padding-top:20px; padding-left:17px; }
+.loginBox .btn .LBTop a.gr{background:url(/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/login_gr.gif) no-repeat; width:95px; height:30px; display:inline-block;}
+.loginBox .btn .LBTop a.gr.on{background:url(/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/login_gr_on.gif) no-repeat;}
+.loginBox .btn .LBTop a.qy{background:url(/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/login_qy.gif) no-repeat; width:95px; height:30px; display:inline-block;}
+.loginBox .btn .LBTop a.qy.on{background:url(/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/login_qy_on.gif) no-repeat;}
+
+.loginBox .btn .LBBottom{text-align:center;background:#d1cfcc; }
+.loginBox .helpLink{text-align:center;background:#efefef; padding-top:8px; padding-bottom:10px; width:196px; margin:0 auto}
+.loginBox .helpLink a{margin:0 4px; line-height:18px; font-size:11px; color:#000000; font-family:Microsoft YaHei;}
+.loginBox .helpLink_qy{text-align:center;background: url(/SiteCollectionDocuments/ICBC/Resources/ICBC/sy/photo/2014new/login_bg.gif) center 5px no-repeat #d1cfcc; padding-top:21px; padding-bottom:24px;}
+.loginBox .helpLink_qy a{margin:0 4px; line-height:18px; font-size:11px; color:#000000}
+.loginBox .btnBottom{margin-top:10px; text-align:center; overflow:hidden;_margin-top:8px; padding-bottom:20px}

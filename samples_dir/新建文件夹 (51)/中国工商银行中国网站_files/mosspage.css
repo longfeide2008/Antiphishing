@@ -1,0 +1,17 @@
+﻿/*Moss 页面编辑的相关css Add By DJ */
+.ICBC_Hidden_CSS
+{
+	border: solid 1px gray;
+	display: none;
+}
+
+.ms-formfieldlabel
+{
+	display: none;
+}
+
+
+form
+{
+	margin: 0px auto;
+}

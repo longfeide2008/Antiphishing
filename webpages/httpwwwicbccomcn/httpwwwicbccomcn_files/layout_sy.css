@@ -1,0 +1,148 @@
+
+@charset "utf-8";
+
+*{margin:0;padding:0;font-family:Microsoft YaHei;font-size:12px;border:none;}
+html,body{ width:100%; height:100%; background:#fff;}
+dl,dt,dd,ul,li,ol{list-style:none;}
+img, input, select, textarea {vertical-align: middle;}
+a:link,a:visited,a:hover,a:focus { text-decoration:none; color:inherit; outline:none;blr:expression(this.onFocus=this.blur());}
+.png {tmp:expression(setPng(this));}
+.clear{ clear:both}
+
+.visimg { text-align:center; }
+#wrap{ width:100%}
+/* Header */
+@charset "utf-8";
+
+* { -webkit-text-size-adjust:none; }
+
+html,body {background:#eee;}
+body, h1, h2, h3, h4, h5, h6, p, fieldset, ul, ol, dl,dt, dd,form, button, input { margin:0; padding:0; }
+body { width:100%; min-width:280px; background:#eee; color:#797979; font:1em 'Microsoft Yahei',Arial, Helvetica, sans-serif;}
+li { list-style:none; }
+em, address { font-style:normal; }
+map { display:block; }
+img, fieldset, button { border:0; }
+img, input, button { vertical-align:top;}
+hr { display:none; }
+
+input, select, textarea {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #767676;
+    font-size: 100%;
+}
+
+.hidden {
+    display: none;
+}
+.invisible {
+    height: 0;
+    line-height: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: -1000%;
+    visibility: hidden;
+    width: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:focus { text-decoration:none; color:inherit; outline:none;blr:expression(this.onFocus=this.blur());}
+
+.g_r{ float:right}
+
+/* Full Image */
+.visimg { text-align:center; }
+img{width:100%;}
+
+/* Header */
+#header{width:100%}
+#nav{width:100%; position:relative;}
+#nav p{z-index:10}
+#nav p img{z-index:11}
+#nav a{position:absolute; top:0; height:100%; display:inline-block; background:url(/SiteCollectionDocuments/ICBC/Resources/WAP/touch/images/2014new/k.png); z-index:100;}
+#nav a.home{left:0; width:12%;}
+#nav a.nav01{left:14%; width:14%;}
+#nav a.nav02{left:32%; width:14%;}
+#nav a.nav03{left:50.5%; width:14%;}
+#nav a.nav04{left:68.5%; width:14%;}
+#nav a.nav05{left:86%; width:12%;}
+#nav a.active{height:98%; border-bottom:2px solid #d0020e;}
+
+#section{width:100%; background:#fff;box-shadow:1px 1px 2px #dbdbdb; margin:2% auto;}
+#section .kv{width:96%; margin:0 auto; padding:2% 0 0 0}
+.Box{width:100%; margin:0 auto; }
+.Box h2{padding:5px 0 0 0; position:relative}
+.Box h2 ul{width:100%; overflow:hidden; background:url(/SiteCollectionDocuments/ICBC/Resources/WAP/touch/images/2014new/line.gif) center center no-repeat;}
+.Box h2 ul li{width:50%; float:left; text-align:center;}
+.Box h2 ul li a{font-size:1.5em; line-height:2; color:#9b9a9a; width:70%; display:inline-block; font-weight:normal}
+.Box h2 ul li.on a{color:#545454; border-bottom:2px solid #c7000a;}
+.Box h2 p{font-size:1.5em; line-height:2; color:#545454; border-bottom:2px solid #e4e4e4; font-weight:normal; padding-left:2%}
+.Box h2 p.znfw{position:absolute; left:11%; bottom:35%; border:0}
+.Box h2.BLine{border-bottom:2px solid #e4e4e4; overflow:hidden; padding:5% 0 2%}
+.Box h2 span{width:25%; float:left;font-size:1.5em; line-height:2; color:#545454; font-weight:normal; border-right:1px solid #797979; padding-left:2%;}
+.Box h2 ul.h2Right{width:71%; float:right; background:none}
+.Box h2 ul.h2Right li{width:25%; float:left;}
+.Box h2 ul.h2Right li a{font-size:1.1em; line-height:3; color:#9b9a9a; width:90%; display:inline-block; font-weight:normal}
+
+#section .kjfw{overflow:hidden; width:100%; position:relative}
+#section .kjfw a{float:left; width:7%; height:100%; top:0; position:absolute;}
+#section .kjfw a.left{left:0;}
+#section .kjfw a.right{right:0;}
+#section .sjyh{overflow:hidden; width:100%; padding:2% 0 5%;}
+#section .sjyh .left{float:left; width:45%;}
+#section .sjyh .right{float:right; width:45%;}
+.gg{width:100%; padding:0% 0 2%;}
+.gg li{ background:url(/SiteCollectionDocuments/ICBC/Resources/WAP/touch/images/2014new/icbc11.jpg) left center no-repeat; padding-left:15px; font-size:1em; line-height:1.8;}
+.fw{width:100%; padding:0% 0 2%; overflow:hidden}
+.fw .left{width:30%; margin-right:2%; float:left;}
+.fw .left1{width:58%; float:left;}
+.fw .right{width:68%; float:left;}
+.fw .right2{width:40%; margin-right:2%; float:left;}
+.fw .right p{ font-size:1em; line-height:1.8;}
+.fw .right textarea{ font-size:1em; line-height:1.8; border:1px solid #999; width:97%; height:80%; padding:1%;}
+.fw .right .btn{ float:right; width:30%; margin-top:1%;}
+.gryw{width:100%; padding:4% 0 2%; overflow:hidden}
+.gryw .left{float:left; width:45%;}
+.gryw .right{float:right; width:45%;}
+.gryw p{ font-size:1em; line-height:1.8; text-align:center; padding-top:2%;}
+.news{width:100%; padding:0% 0 2%;}
+.news li{ background:url(/SiteCollectionDocuments/ICBC/Resources/WAP/touch/images/2014new/icbc11.jpg) left center no-repeat !important; padding-left:15px; font-size:1em; line-height:1.8;}
+.khfw{width:100%; padding:0% 0 2%; overflow:hidden}
+.khfw .left{float:left; width:45%;}
+.khfw .right{float:right; width:45%;}
+.khfw .bottom{width:100%; overflow: hidden; padding-top:5%}
+.khfw .bottom .sbox{margin:0 2.5%; width:20%; float:left}
+.khfw p{ font-size:1em; line-height:1.8; text-align:center; padding-top:2%;}
+
+
+#footer{width:100%; border-top:2px solid #c7000a; background:#fff; padding:5% 0;}
+#footer .nav{text-align:center;}
+#footer .nav a{ font-size:1em; line-height:1.8; padding:0 2%;}
+#footer .copyright{text-align:center; padding-top:1%;}
+
+
+
+
+
+ 
+.scroll{width:480px;margin:0px auto 0 auto; position:relative;overflow:hidden;}
+.mod_01{float:left;width:480px;}
+.mod_01 img{display:block;width:100%;}
+.dotModule_new{padding:0 5px;height:11px;line-height:6px;-webkit-border-radius:11px;background:rgba(45,45,45,0.5);position:absolute;bottom:5px;right:10px;z-index:11;}
+#slide_01_dot{text-align:center;margin:3px 0 0 0;}
+#slide_01_dot span{display:inline-block;margin:0 3px;width:5px;height:5px;vertical-align:middle;background:#f7f7f7;-webkit-border-radius:5px;}
+#slide_01_dot .selected{background:#66ff33;}
+
+
+
+.B90{width:100%;}

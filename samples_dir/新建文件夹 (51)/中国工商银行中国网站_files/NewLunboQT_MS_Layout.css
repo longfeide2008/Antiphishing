@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.manualSwitch_box{border-left:1px solid #cbcbcb; border-right:1px solid #cbcbcb; background:url(../AdRes/Img_NewLunboManualSwitch/boxbg.gif) bottom repeat-x #fff;position: relative; padding:20px 30px;}
+.manualSwitch_adBox{margin:0 auto; position: relative;}
+.manualSwitch_adBox .adLeft{position:absolute; left:0; cursor:pointer;}
+.manualSwitch_adBox .adRight{position:absolute; right:0; cursor:pointer;}
+.manualSwitch_adBox .adPic{margin:0 auto; overflow:hidden}
+.manualSwitch_adBox .adPic ul{width:20000px; overflow:hidden}
+.manualSwitch_adBox .adPic ul li{float:left; display:inline; margin:0 5px;}
+.manualSwitch_adBox .adPic ul li img{margin:0; padding:0; border:0; vertical-align: middle;}
+
+.QuanTongAD_KV{width:100%; position:relative; z-index:200}
+.QuanTongAD_KV .QuanTongAD_KVitem{width:100%; background-position: top center; background-repeat:no-repeat; position:absolute; top:0; left:0; z-index:100}
+.QuanTongAD_KV .QuanTongAD_KVitem a{float:left; width:100%; }
+.QuanTongAD_KV .ctrl_btn{position:absolute; z-index:110; bottom:5px; left:50%; overflow:hidden;}
+.QuanTongAD_KV .ctrl_btn .QuanTongAD_left{float:left; margin-right:10px; background:url(../AdRes/Img_NewLunboQuanTong/kv_left.gif) no-repeat; width:30px; height:19px; cursor:pointer;}
+.QuanTongAD_KV .ctrl_btn .QuanTongAD_right{float:left; margin-left:10px; background:url(../AdRes/Img_NewLunboQuanTong/kv_right.gif) no-repeat right; width:30px; height:19px; cursor:pointer;}
+.QuanTongAD_KV .ctrl_btn ul{float:left; overflow:hidden; margin:0px; padding: 0;}
+.QuanTongAD_KV .ctrl_btn ul li{background:url(../AdRes/Img_NewLunboQuanTong/kv_li.png) no-repeat center center; width:14px; height:19px; cursor:pointer; margin:0 2px; float:left;list-style: none;}
+.QuanTongAD_KV .ctrl_btn ul li.on{background:url(../AdRes/Img_NewLunboQuanTong/kv_li_on.png) no-repeat center center;}

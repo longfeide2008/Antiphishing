@@ -9,15 +9,22 @@
 # 通过get_feature_names()可看到所有文本的关键字，通过toarray()可看到词频矩阵的结果
 # icbc官网和百度的cos相似度是0.04， icbc官网和ccb官网的相似度是0.19
 # http://www.ccb.com/cn/home/indexv3.html
-
+import os
+import glob
 import math
+import chardet
 import config as cfg
+import pandas as pd
 import re
 import jieba
 import urllib.request
 from urllib import error
 from sklearn.feature_extraction.text import TfidfVectorizer
-
+from chardet.universaldetector import UniversalDetector
+import numpy as np
+import subprocess
+keyword_num = 5
+samples_dir = 'samples_dir'
 
 def readstoplist():
     stopwordspath = 'stopwords.txt'
@@ -130,6 +137,90 @@ def text_similarity(url_to_detect):
         return float('inf')
 
 
+def text_check(url_to_detect):
+    dir_name = re.sub('[^a-zA-Z0-9]', '', url_to_detect)
+    to_check_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "webpages", dir_name)
+    to_check_file = dir_name + '.html'
+    print('待检测目录', to_check_dir)
+    print('待检测文件', to_check_file)
+
+    corpus = []
+    for root, dir, files in os.walk(samples_dir):
+        for fname in files:
+            try:
+                if fname.endswith('.txt'):
+                    # print(os.path.join(root, fname))
+                    freader = open(os.path.join(root, fname), 'r', encoding='utf8')
+                    ftext = freader.read()
+                    freader.close()
+                    corpus.append(' '.join(get_seg_list(get_chinese_content(ftext))))
+                    # 假设corpus有n行，前n-1行是已知的训练样本，最后一行是待判断的
+            except OSError as ose:
+                print('read txt error', ose)
+    print('样本corpus的行数', len(corpus))
+    try:
+        with open(os.path.join(to_check_dir, to_check_file), 'r', encoding='utf-8') as fcheck:
+            to_check_text = fcheck.read()
+            fcheck.close()
+            corpus.append(' '.join(get_seg_list(get_chinese_content(to_check_text))))
+
+        print('样本corpus加上待检测文本的行数', len(corpus))
+
+    except Exception as e:   # 读取保存成的utf8文件
+        print(e)
+        try:
+            with open(os.path.join(to_check_dir, dir_name+'utf8.html'), 'r', encoding='utf-8') as fcheck:
+                to_check_text = fcheck.read()
+                fcheck.close()
+                corpus.append(' '.join(get_seg_list(get_chinese_content(to_check_text))))
+            print('样本corpus加上待检测文本的行数', len(corpus))
+        except Exception as e:
+            pass
+
+    vectorizer = TfidfVectorizer(stop_words=readstoplist())
+    tf_idf_matrix = vectorizer.fit_transform(corpus).toarray()
+    # tf_idf_matrix.shape 种类数*词库中词的数量
+    vocabulary = vectorizer.vocabulary_
+    words = vectorizer.get_feature_names()
+    print('训练和测试的总数量', len(words))
+    print('初始矩阵的大小：样本数*词库数', tf_idf_matrix.shape)
+
+    # 对每一行都要提取其中最大的20个关键字，要取数值最大的tf_idf及其对应的关键字
+    desc_index = np.argsort(-tf_idf_matrix, axis=1)  # 按行排序，降序排序，返回的是每行的索引
+    top_keyword = []
+    for i in range(tf_idf_matrix.shape[0]):
+        for j in range(keyword_num):
+            top_keyword.append(words[desc_index[i][j]])
+
+    top_keyword = list(set(top_keyword))
+    print('top20关键字的个数', len(top_keyword))
+
+    top_arr = np.ndarray([tf_idf_matrix.shape[0], len(top_keyword)])
+    for row in range(tf_idf_matrix.shape[0]):
+        for p in range(len(top_keyword)):
+            for q in range(len(words)):
+                if top_keyword[p] == words[q]:
+                    top_arr[row, p] = tf_idf_matrix[row, q]
+    print('重要关键字的矩阵大小及具体值：样本数*top20', top_arr.shape)
+
+    # 求文档的平均向量
+    sample_text_mean = top_arr[:-1].mean(axis=0)
+    print('前n-1行的平均向量', sample_text_mean.shape, sample_text_mean)
+    check_text = top_arr[-1]
+    print('最后一行的向量', check_text)
+    cos_dis = run(sample_text_mean, check_text)
+    print('余弦相似度', cos_dis)
+    if cos_dis >= 0.5:
+        text_identity = 0
+    else:
+        text_identity = float('inf')
+    return text_identity
+
+
 if __name__ == '__main__':
-    a = text_similarity('http://www.google.com')
-    print('a', a)
+    samples_dir = 'samples_dir'
+    to_check_dir = 'to_check_dir'
+    to_check_file = 'test.txt'
+    url_to_detect = 'http://www.baidu.com'
+    text_check(url_to_detect)
+

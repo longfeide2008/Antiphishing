@@ -1,0 +1,18 @@
+﻿A.text2_default:link {
+ COLOR: #000000; TEXT-DECORATION: none
+}
+A.text2_default:hover {
+ COLOR: #bc0021; TEXT-DECORATION: underline
+}
+a.text2_default:visited {
+ font-size: 12px;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+a.text2_default:active {
+ font-size: 12px;
+ font-weight: normal;
+ color: #bc0021;
+ text-decoration: underline;
+}

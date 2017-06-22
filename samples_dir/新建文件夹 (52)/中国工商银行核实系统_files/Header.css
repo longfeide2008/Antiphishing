@@ -1,0 +1,126 @@
+#menu A {
+	PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 25px; PADDING-RIGHT: 25px; FONT: bold 14px/25px Arial, Helvetica; FLOAT: right; HEIGHT: 25px; COLOR: #555; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#menu {
+	Z-INDEX: 99999; POSITION: absolute; MIN-WIDTH: 100px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: #eee; RIGHT: 39px; PADDING-TOP: 0px
+}
+#menu LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: none; PADDING-TOP: 0px; box-shadow: 0 1px 0 #DDD, 0 1px 0 #DDD; -webkit-box-shadow: 0 1px 0 #DDD, 0 1px 0 #DDD; -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777
+}
+#menu LI:unknown {
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none
+}
+#menu A {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 1; TEXT-TRANSFORM: none; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; WHITE-SPACE: nowrap; FLOAT: none; HEIGHT: auto; PADDING-TOP: 10px
+}
+* HTML #menu A {
+	WIDTH: 150px; HEIGHT: 10px
+}
+*:first-child + HTML #menu A {
+	WIDTH: 150px; HEIGHT: 10px
+}
+#menu A:hover {
+	BACKGROUND: #0186ba
+}
+#menu LI:first-child A {
+	-webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0
+}
+#menu LI:first-child A:after {
+	BORDER-BOTTOM: #eee 8px solid; POSITION: absolute; BORDER-LEFT: transparent 5px solid; WIDTH: 0px; HEIGHT: 0px; CONTENT: ''; TOP: -8px; BORDER-RIGHT: transparent 5px solid; LEFT: 65px
+}
+#menu LI:first-child A:hover:after {
+	BORDER-BOTTOM-COLOR: #04acec
+}
+#menu LI:unknown A {
+	-webkit-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px
+}
+#menu:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px; CONTENT: " "
+}
+* HTML #menu {
+	ZOOM: 1
+}
+*:first-child + HTML #menu {
+	ZOOM: 1
+}
+.STYLE8 {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ"; COLOR: #ffffff; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.icbcmid {
+	MARGIN-TOP: 0px
+}
+.icbchead {
+	BACKGROUND-COLOR: #b71a21; WIDTH: 100%; HEIGHT: 40px
+}
+.icbchead DIV {
+	BACKGROUND-COLOR: #b71a21; PADDING-TOP: 7px
+}
+.search04 {
+	WIDTH: 21px; HEIGHT: 30px
+}
+.search05 {
+	WIDTH: 261px; HEIGHT: 6px
+}
+.search07 {
+	WIDTH: 261px; HEIGHT: 4px
+}
+.search06 {
+	WIDTH: 38px; HEIGHT: 30px
+}
+.searchinput {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px; border-radius: 0; -webkit-appearance: none
+}
+.imgoback {
+	WIDTH: 14px
+}
+.imright {
+	WIDTH: 29px
+}
+.imlogo {
+	WIDTH: 210px
+}
+
+@media Unknown    
+{
+#menu {
+	RIGHT: 25px
+}
+#menu {
+	RIGHT: 15px
+}
+#menu {
+	RIGHT: 1px
+}
+#menu LI:first-child A:after {
+	LEFT: 75px
+}
+    }
+.header_left_btn {
+	BORDER-BOTTOM: transparent 9px; POSITION: absolute; BORDER-LEFT: transparent 7px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; MARGIN: 2px; MIN-HEIGHT: 35px; PADDING-LEFT: 25px; PADDING-RIGHT: 5px; DISPLAY: block; FONT-FAMILY: Arial; HEIGHT: auto; COLOR: rgb(255,255,255); FONT-SIZE: 16px; BORDER-TOP: transparent 9px; TOP: 5px; FONT-WEIGHT: normal; BORDER-RIGHT: transparent 5px; TEXT-DECORATION: none; PADDING-TOP: 0px; LEFT: 0px; background-size: 14px 24px; border-radius: 0px; text-shadow: none; -webkit-tap-highlight-color: none
+}
+.header_title {
+	LINE-HEIGHT: 48px; MARGIN: 0px auto; WIDTH: 60%; TEXT-OVERFLOW: ellipsis; DISPLAY: block; WHITE-SPACE: nowrap; FONT-SIZE: 1.1em; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.header_right_btn {
+	BORDER-BOTTOM: transparent 9px; POSITION: absolute; MIN-WIDTH: 52px; BORDER-LEFT: transparent 3px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; MARGIN: 2px; MIN-HEIGHT: 35px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; DISPLAY: block; FONT-FAMILY: Arial; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: auto; COLOR: rgb(255,255,255); FONT-SIZE: 16px; BORDER-TOP: transparent 9px; TOP: 5px; RIGHT: 2px; FONT-WEIGHT: normal; BORDER-RIGHT: transparent 4px; TEXT-DECORATION: none; PADDING-TOP: 0px; border-radius: 0px; text-shadow: none; -webkit-tap-highlight-color: none
+}
+.header {
+	BORDER-BOTTOM: #666666 1px solid; POSITION: relative; TEXT-ALIGN: center; DISPLAY: block; HEIGHT: 48px; COLOR: white; OVERFLOW: hidden; text-shadow: none
+}
+.appheader_left_btn {
+	BORDER-BOTTOM: transparent 9px; POSITION: absolute; BORDER-LEFT: transparent 7px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 38px; MARGIN: 2px; MIN-HEIGHT: 44px; PADDING-LEFT: 35px; PADDING-RIGHT: 5px; DISPLAY: block; FONT-FAMILY: Arial; BACKGROUND: url(/Portal_Resources/Touch/images/back@2x.PNG) no-repeat 15px 7px; HEIGHT: auto; COLOR: rgb(255,255,255); FONT-SIZE: 15px; BORDER-TOP: transparent 9px; TOP: 1px; FONT-WEIGHT: normal; BORDER-RIGHT: transparent 5px; TEXT-DECORATION: none; PADDING-TOP: 0px; LEFT: 0px; background-size: 17px 22px; border-radius: 0px; text-shadow: none; -webkit-tap-highlight-color: none
+}
+.appheader_title {
+	LINE-HEIGHT: 44px; MARGIN: 0px auto; WIDTH: 100%; TEXT-OVERFLOW: ellipsis; DISPLAY: block; WHITE-SPACE: nowrap; FONT-SIZE: 18px; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.appheader {
+	BORDER-BOTTOM: #666666 1px solid; POSITION: relative; TEXT-ALIGN: center; DISPLAY: block; HEIGHT: 44px; COLOR: white; OVERFLOW: hidden; text-shadow: none
+}
+
+@media Unknown    
+{
+.appheader_title {
+	FLOAT: right
+}
+
+}

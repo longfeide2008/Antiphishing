@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*--------------
+lastTime : 2012.09.28
+tags : img_ad | reset
+----------------*/
+
+/*------img_ad-------*/
+.imgScroll_mobileAd_img_ad {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgScroll_mobileAd_img_wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #666;
+}
+
+    .imgScroll_mobileAd_img_wrap ul {
+        position: absolute;
+        left: 0px;
+    }
+
+        .imgScroll_mobileAd_img_wrap ul li {
+            float: left;
+            display: inline;
+            background-color: #808080;
+        }
+
+            .imgScroll_mobileAd_img_wrap ul li img {
+                opacity: 0.3;
+            }
+
+                .imgScroll_mobileAd_img_wrap ul li img.on {
+                    opacity: 1.0;
+                }
+
+
+.imgScroll_mobileAd_imgFlashIco {
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+}
+
+    .imgScroll_mobileAd_imgFlashIco li {
+        float: left;
+        font-weight: bold;
+        width: 20px;
+        font-size: 14px;
+        margin-top: 2px;
+        margin-left: 6px;
+        text-align: center;
+        line-height: 26px;
+        height: 26px;
+        cursor: pointer;
+        color: #FFF;
+    }
+
+        .imgScroll_mobileAd_imgFlashIco li.on {
+            color: #000;
+        }

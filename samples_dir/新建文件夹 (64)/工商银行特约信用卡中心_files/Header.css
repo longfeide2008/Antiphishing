@@ -1,0 +1,369 @@
+﻿#menu a
+{
+	float: right;
+	height: 25px;
+	padding: 0 25px;
+	color: #555;
+	text-transform: uppercase;
+	font: bold 14px/25px Arial, Helvetica;
+	text-decoration: none; /*text-shadow: 0 1px 0 #000;*/
+}
+
+
+#menu
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	z-index: 99999;
+	background: #eee;
+	right: 39px;
+	min-width: 100px;
+}
+
+#menu li
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	-moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+	-webkit-box-shadow: 0 1px 0 #DDD, 0 1px 0 #DDD;
+	box-shadow: 0 1px 0 #DDD, 0 1px 0 #DDD;
+	text-align: center;
+}
+
+#menu li:last-child
+{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#menu a
+{
+	padding: 10px;
+	height: auto;
+	line-height: 1;
+	display: block;
+	white-space: nowrap;
+	float: none;
+	text-transform: none;
+}
+
+*html #menu a
+{
+	/* IE6 */
+	height: 10px;
+	width: 150px;
+}
+
+*:first-child + html #menu a
+{
+	/* IE7 */
+	height: 10px;
+	width: 150px;
+}
+
+#menu a:hover
+{
+	background: #0186ba;
+	background: -moz-linear-gradient(#04acec, #0186ba);
+	background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+	background: -webkit-linear-gradient(#04acec, #0186ba);
+	background: -o-linear-gradient(#04acec, #0186ba);
+	background: -ms-linear-gradient(#04acec, #0186ba);
+	background: linear-gradient(#04acec, #0186ba);
+}
+
+#menu li:first-child a
+{
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+}
+
+#menu li:first-child a:after
+{
+	content: '';
+	position: absolute;
+	left: 65px;
+	top: -8px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 8px solid #eee;
+}
+
+#menu li:first-child a:hover:after
+{
+	border-bottom-color: #04acec;
+}
+
+#menu li:last-child a
+{
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+
+/* Clear floated elements */
+#menu:after
+{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+* html #menu
+{
+	zoom: 1;
+}
+/* IE6 */
+*:first-child + html #menu
+{
+	zoom: 1;
+}
+/* IE7 */
+.STYLE8
+{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.icbcmid
+{
+	margin-top: 0px;
+}
+.icbchead
+{
+	background-color: #B71A21;
+	width: 100%;
+	height: 40px;
+}
+
+.icbchead div
+{
+	padding-top: 7px;
+	background-color: #B71A21;
+}
+.search04
+{
+	width: 21px;
+	height: 30px;
+}
+.search05
+{
+	width: 261px;
+	height: 6px;
+}
+.search07
+{
+	width: 261px;
+	height: 4px;
+}
+.search06
+{
+	width: 38px;
+	height: 30px;
+}
+.searchinput
+{
+	width: 100%;
+	height: 20px;
+	color: #000;
+	border: 0px;
+	padding:0;
+	-webkit-appearance:none;
+	border-radius:0;
+}
+.imgoback
+{
+	width: 14px;
+}
+.imright
+{
+	width: 29px;
+}
+.imlogo
+{
+	width: 210px;
+}
+@media screen and (max-width:950px)
+{
+	#menu
+	{
+		right: 25px;
+	}
+}
+
+@media screen and (max-width:650px)
+{
+	#menu
+	{
+		right: 15px;
+	}
+}
+
+@media screen and (max-width:420px)
+{
+	#menu
+	{
+		right: 1px;
+	}
+	#menu li:first-child a:after
+	{
+		left: 75px;
+	}
+}
+
+/* WapHeader */
+.header_left_btn
+{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Arial;
+    font-size: 16px;
+    left: 0px;
+    line-height: 35px;
+    margin: 2px;
+    padding: 0 5px 0 25px;
+    position: absolute;
+    top: 5px;
+    border-width: 9px 5px 9px 7px;
+    border-color: transparent;
+    background-size: 14px 24px;
+    text-decoration: none;
+    min-height: 35px;
+    border-radius:0px;
+    border-style:none;
+    font-weight:normal;
+    height:auto;
+    width:inherit;
+    min-width:inherit;
+    text-shadow:none;
+    -webkit-tap-highlight-color:none;
+}
+.header_title
+{
+    display: block;
+    font-size: 1.1em;
+    overflow: hidden;
+    font-weight: bold;
+    white-space: nowrap;
+    line-height: 48px;
+    text-overflow: ellipsis;
+    width: 60%;
+    margin: 0 auto;
+}
+.header_right_btn
+{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 35px;
+    margin: 2px;
+    min-width: 52px;
+    padding: 0 2px;
+    position: absolute;
+    right: 2px;
+    text-decoration: none;
+    top: 5px;
+    border-width: 9px 4px 9px 3px;
+    border-color: transparent;
+    background: transparent;
+    min-height: 35px;
+    border-radius:0px;
+    border-style:none;
+    font-weight:normal;
+    height:auto;
+    width:inherit;
+    min-width:inherit;
+    text-shadow:none;
+    -webkit-tap-highlight-color:none;
+}
+.header
+{
+    display: block;
+    text-align: center;
+    height: 48px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #666666;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#c7000b),to(#c7000b));
+    background-attachment:inherit;
+    width:inherit;
+    text-shadow:none;
+}
+/* WapHeader End*/
+/* WapAPPHeader*/
+.appheader_left_btn
+{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Arial;
+    font-size: 15px;
+    left: 0px;
+    line-height: 38px;
+    margin: 2px;
+    padding: 0 5px 0 35px;
+    position: absolute;
+    top: 1px;
+    border-width: 9px 5px 9px 7px;
+    border-color: transparent;
+    background: url('/Portal_Resources/Touch/images/back@2x.PNG') 15px 7px no-repeat;
+    background-size: 17px 22px;
+    text-decoration: none;
+    min-height: 44px;
+    border-radius:0px;
+    border-style:none;
+    font-weight:normal;
+    height:auto;
+    width:inherit;
+    min-width:inherit;
+    text-shadow:none;
+    -webkit-tap-highlight-color:none;
+}
+.appheader_title
+{
+    display: block;
+    font-size: 18px;
+    overflow: hidden;
+    font-weight: bold;
+    white-space: nowrap;
+    line-height: 44px;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin: 0 auto;
+}
+.appheader
+{
+    display: block;
+    text-align: center;
+    height: 44px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #666666;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#c7000b),to(#c7000b));
+    background-attachment:inherit;
+    width:inherit;
+    text-shadow:none;
+}
+@media screen and (max-width:400px)
+{
+	.appheader_title
+	{
+		float:right;
+	}
+}
+/* WapAPPHeader End*/
